@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Activo"
+        android:textSize="16sp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tvSistemaOperativo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistema Operativo"
+        android:textSize="16sp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
